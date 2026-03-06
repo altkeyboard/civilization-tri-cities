@@ -87,7 +87,7 @@ body {
   max-width: 760px;
 
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   font-weight: 400;
 
   letter-spacing: 0.22em;
@@ -98,11 +98,19 @@ body {
 
   color: #333333;
 }
-.hero-text::before,
+.hero-text::before {
+  content: "";
+  display: block;
+  width: 140px;
+  height: 1px;
+  background: #cccccc;
+  margin: 0.6rem auto;
+}
+
 .hero-text::after {
   content: "";
   display: block;
-  width: 90px;
+  width: 70px;
   height: 1px;
   background: #cccccc;
   margin: 0.6rem auto;
