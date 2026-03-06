@@ -78,14 +78,20 @@ body {
 .hero-text {
   margin: 0 auto;
   padding: 0.9rem 0;
-  max-width: 640px;
-  font-size: 1rem;
-  line-height: 1.5;
-  color: #444444;
-  text-align: center;
-  position: relative;
-}
+  max-width: 760px;
 
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.85rem;
+  font-weight: 400;
+
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+
+  line-height: 1.6;
+  text-align: center;
+
+  color: #777777;
+}
 .hero-text::before,
 .hero-text::after {
   content: "";
