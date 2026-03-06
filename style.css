@@ -66,49 +66,20 @@ body {
 /* HERO */
 
 .hero-banner {
-  min-height: 420px;
-  background: #f3f3f3;
-  display: flex;
-  align-items: stretch;
-  border-top: 1px solid #222;
+  background: #ffffff;
   border-bottom: 1px solid #e5e5e5;
 }
 
-.hero-overlay {
-  width: 100%;
-  display: flex;
-  align-items: center;
-}
-
 .hero-content {
-  color: #111111;
-  padding: 5rem 0;
-  max-width: 760px;
-}
-
-.hero-kicker {
-  text-transform: uppercase;
-  letter-spacing: 0.14em;
-  font-size: 0.75rem;
-  margin-bottom: 0.75rem;
-  color: #666666;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.hero-content h2 {
-  font-size: clamp(2.4rem, 5vw, 4.4rem);
-  line-height: 1.05;
-  margin: 0 0 1rem;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.02em;
+  padding: 1.4rem 0 1.4rem;
+  max-width: 820px;
 }
 
 .hero-text {
-  font-size: 1.08rem;
-  max-width: 640px;
-  color: #333333;
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #444444;
 }
 
 /* INTRO */
