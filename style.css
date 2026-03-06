@@ -52,7 +52,7 @@ body {
   margin: 1.2rem 0 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .nav-list a {
