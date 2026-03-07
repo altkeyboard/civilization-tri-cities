@@ -125,40 +125,43 @@ body {
 
 /* SECTION PAGE HEADER */
 
+/* SECTION PAGE HEADER */
+
 .section-page-header {
   padding: 2.2rem 0 2rem;
   text-align: center;
 }
 
 .section-page-title {
-  margin: 0;
-  font-size: 2rem;
-  line-height: 1.1;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: #111111;
-}
+  margin: 0 auto;
+  max-width: 760px;
 
-.section-page-title::before,
-.section-page-title::after {
-  content: "";
-  display: block;
-  height: 1px;
-  background: #cccccc;
-  margin-left: auto;
-  margin-right: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  line-height: 1.5;
+  text-align: center;
+  color: #555555;
 }
 
 .section-page-title::before {
+  content: "";
+  display: block;
   width: 150px;
-  margin-bottom: 0.9rem;
+  height: 1px;
+  background: #cccccc;
+  margin: 0 auto 0.9rem;
 }
 
 .section-page-title::after {
+  content: "";
+  display: block;
   width: 80px;
-  margin-top: 0.9rem;
+  height: 1px;
+  background: #cccccc;
+  margin: 0.9rem auto 0;
 }
 
 .section-page-intro {
