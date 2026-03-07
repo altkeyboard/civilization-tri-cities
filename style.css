@@ -96,7 +96,7 @@ body {
   line-height: 1.5;
   text-align: center;
 
-  color: #555555;
+  color: #111111;
 }
 
 .hero-text::before {
@@ -146,7 +146,7 @@ body {
   text-transform: uppercase;
   line-height: 1.5;
   text-align: center;
-  color: #555555;
+  color: #111111;
 }
 
 .section-page-title::before {
