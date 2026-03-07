@@ -90,30 +90,33 @@ body {
   font-size: 1.4rem;
   font-weight: 400;
 
-  letter-spacing: 0.22em;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
 
-  line-height: 1.6;
+  line-height: 1.5;
   text-align: center;
 
-  color: #333333;
+  color: #555555;
 }
+
 .hero-text::before {
   content: "";
   display: block;
-  width: 140px;
+  width: 100%;
+  max-width: 900px;
   height: 1px;
   background: #cccccc;
-  margin: 0.6rem auto;
+  margin: 0 auto 1rem;
 }
 
 .hero-text::after {
   content: "";
   display: block;
-  width: 70px;
+  width: 55%;
+  max-width: 420px;
   height: 1px;
   background: #cccccc;
-  margin: 0.6rem auto;
+  margin: 1rem auto 0;
 }
 
 /* INTRO */
