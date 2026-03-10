@@ -20,6 +20,13 @@ body {
   border-bottom: none;
 }
 
+.site-logo {
+  height: 32px;
+  width: auto;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
 .site-header h1 {
   margin: 0;
   padding-bottom: 0.5rem;
