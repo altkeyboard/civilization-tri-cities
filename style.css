@@ -492,19 +492,24 @@ body {
   }
 }
 
-.title-row {
+.header-layout {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 1.5rem;
   width: 100%;
 }
 
-.title-row h1 {
+.header-text {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.header-text h1 {
   margin: 0;
 }
 
-.title-logo {
+.header-logo {
   display: block;
   width: 135px;
   max-width: 135px;
