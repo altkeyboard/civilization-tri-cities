@@ -496,9 +496,18 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+}
+
+.title-row h1 {
+  margin: 0;
 }
 
 .title-logo {
+  display: block;
   width: 90px;
+  max-width: 90px;
   height: auto;
+  flex: 0 0 auto;
 }
