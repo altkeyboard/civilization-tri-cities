@@ -480,6 +480,33 @@ body {
 }
 
 @media (max-width: 700px) {
+
+  .menu-toggle {
+    display: block;
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 0;
+    margin-top: 0.5rem;
+  }
+
+  #site-nav {
+    display: none;
+    margin-top: 0.75rem;
+  }
+
+  #site-nav.open {
+    display: block;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+}
   .hero-banner {
     min-height: 320px;
   }
