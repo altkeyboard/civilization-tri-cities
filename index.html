@@ -21,7 +21,6 @@
       <button class="menu-toggle" aria-label="Toggle menu">☰</button>
 
       <nav id="site-nav">
-      <nav>
         <ul class="nav-list">
           <li><a href="sections/home-design/index.html">Home + Design</a></li>
           <li><a href="sections/arts-culture/index.html">Arts + Culture</a></li>
@@ -147,6 +146,17 @@ The shrub-steppe, river landscape, irrigation, trails, weather, and the engineer
 </footer>
 
 <script src="homepage-articles.js"></script>
+
+<script>
+  const menuToggle = document.querySelector(".menu-toggle");
+  const siteNav = document.getElementById("site-nav");
+
+  if (menuToggle && siteNav) {
+    menuToggle.addEventListener("click", () => {
+      siteNav.classList.toggle("open");
+    });
+  }
+</script>
   
 </body>
 </html>
