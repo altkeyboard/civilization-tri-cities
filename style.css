@@ -544,4 +544,32 @@ body {
     height: auto;
     flex: 0 0 auto;
   }
+
+  
+/* DESKTOP HEADER LAYOUT */
+
+.header-layout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  width: 100%;
+}
+
+.header-text {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.header-text h1 {
+  margin: 0;
+}
+
+.header-logo {
+  display: block;
+  width: 135px;
+  max-width: 135px;
+  height: auto;
+  flex: 0 0 auto;
+}
 }
