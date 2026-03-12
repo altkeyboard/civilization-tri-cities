@@ -467,6 +467,10 @@ body {
   margin-bottom: 1.25rem;
 }
 
+.menu-toggle {
+  display: none;
+}
+
 /* RESPONSIVE */
 
 @media (max-width: 900px) {
