@@ -469,23 +469,6 @@ body {
 
 .menu-toggle {
   display: none;
-}
-
-/* RESPONSIVE */
-
-@media (max-width: 900px) {
-  .lead-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .lead-story .feature-image {
-    height: 220px;
-  }
-}
-
-@media (max-width: 700px) {
-.menu-toggle {
-  display: none;
   background: none;
   border: none;
   color: #ffffff;
