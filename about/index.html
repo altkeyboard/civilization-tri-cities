@@ -4,20 +4,31 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>About | Civilization Tri-Cities</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon3.png">
   <link rel="stylesheet" href="../style.css" />
 </head>
 <body>
+
   <header class="site-header">
-    <div class="container">
-      <h1><a href="../index.html">Civilization Tri-Cities</a></h1>
-      <nav>
-        <ul class="nav-list">
-          <li><a href="../sections/home-design/index.html">Home + Design</a></li>
-          <li><a href="../sections/arts-culture/index.html">Arts + Culture</a></li>
-          <li><a href="../sections/outdoors/index.html">Outdoors</a></li>
-          <li><a href="../about/index.html">About</a></li>
-        </ul>
-      </nav>
+    <div class="container header-layout">
+      <div class="header-text">
+        <h1>
+          <a href="../index.html">Civilization Tri-Cities</a>
+        </h1>
+
+        <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+
+        <nav id="site-nav">
+          <ul class="nav-list">
+            <li><a href="../sections/home-design/index.html">Home + Design</a></li>
+            <li><a href="../sections/arts-culture/index.html">Arts + Culture</a></li>
+            <li><a href="../sections/outdoors/index.html">Outdoors</a></li>
+            <li><a href="../about/index.html">About</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <img src="../logo_white.png" alt="Civilization Tri-Cities logo" class="header-logo">
     </div>
   </header>
 
@@ -33,5 +44,23 @@
       infrastructure, irrigation, planning, visual culture, and everyday land use.
     </p>
   </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© Civilization Tri-Cities</p>
+    </div>
+  </footer>
+
+  <script>
+    const menuToggle = document.querySelector(".menu-toggle");
+    const siteNav = document.getElementById("site-nav");
+
+    if (menuToggle && siteNav) {
+      menuToggle.addEventListener("click", () => {
+        siteNav.classList.toggle("open");
+      });
+    }
+  </script>
+
 </body>
 </html>
