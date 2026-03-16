@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>What Grows Here: [Plant Name] | Civilization Tri-Cities</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-final.png">
+  <link rel="stylesheet" href="../../style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-layout">
+    <div class="header-text">
+      <h1>
+        <a href="../../index.html">Civilization Tri-Cities</a>
+      </h1>
+
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+
+      <nav id="site-nav">
+        <ul class="nav-list">
+          <li><a href="../../sections/home-design/index.html">Home + Design</a></li>
+          <li><a href="../../sections/arts-culture/index.html">Arts + Culture</a></li>
+          <li><a href="../../sections/outdoors/index.html">Outdoors</a></li>
+          <li><a href="../../about/index.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <img src="../../updated_logo.png" alt="Civilization Tri-Cities logo" class="header-logo">
+  </div>
+</header>
+
+<main>
+
+<header class="article-header">
+  <p class="article-section-label">Outdoors</p>
+  <h1 class="article-title">What Grows Here: [Plant Name]</h1>
+  <p class="article-subtitle">
+    A recurring look at the plants, trees, and landscape life that shape the Tri-Cities.
+  </p>
+  <div class="article-divider"></div>
+  <p class="article-byline">By Amber Peters</p>
+  <p class="article-date">[Month Year]</p>
+</header>
+
+<div class="article-hero">
+  Photo Placeholder
+</div>
+
+<article class="article-body">
+  <p>
+    [Plant Name] is one of the many plants that help define the look of the Tri-Cities landscape. Whether native, ornamental, or commonly used in local yards, it tells a story about climate, irrigation, and what kinds of plant life people have chosen to cultivate here.
+  </p>
+
+  <p>
+    In a region shaped by heat, wind, dry soil, and managed water, plants are never just decorative. They reveal something about local taste, adaptation, maintenance, and the meeting point between desert conditions and residential landscaping.
+  </p>
+
+  <p>
+    What Grows Here is a recurring feature about the vegetation of the Columbia Basin: the plants that survive, spread, get planted, or come to define the visual character of life in and around the Tri-Cities.
+  </p>
+</article>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© Civilization Tri-Cities</p>
+  </div>
+</footer>
+
+<script>
+  const menuToggle = document.querySelector(".menu-toggle");
+  const siteNav = document.getElementById("site-nav");
+
+  if (menuToggle && siteNav) {
+    menuToggle.addEventListener("click", () => {
+      siteNav.classList.toggle("open");
+    });
+  }
+</script>
+
+</body>
+</html>
