@@ -4,13 +4,21 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>The Three Landscapes of the Basin | Civilization Tri-Cities</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-final.png">
   <link rel="stylesheet" href="../../style.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="container">
-      <h1><a href="../../index.html">Civilization Tri-Cities</a></h1>
-      <nav>
+
+<header class="site-header">
+  <div class="container header-layout">
+    <div class="header-text">
+      <h1>
+        <a href="../../index.html">Civilization Tri-Cities</a>
+      </h1>
+
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+
+      <nav id="site-nav">
         <ul class="nav-list">
           <li><a href="../../sections/home-design/index.html">Home + Design</a></li>
           <li><a href="../../sections/arts-culture/index.html">Arts + Culture</a></li>
@@ -19,26 +27,68 @@
         </ul>
       </nav>
     </div>
-  </header>
 
-  <main class="container article-page">
-    <p class="kicker">Outdoors</p>
-    <h1>The Three Landscapes of the Basin</h1>
+    <img src="../../updated_logo.png" alt="Civilization Tri-Cities logo" class="header-logo">
+  </div>
+</header>
 
-    <p>
-      The Tri-Cities region can be understood through three overlapping landscapes: the native
-      shrub-steppe, the irrigated agricultural grid, and the expanding suburban edge.
-    </p>
+<main>
 
-    <p>
-      Each layer represents a different way of organizing land. The shrub-steppe reflects
-      ecological reality. Irrigation reflects engineering and agricultural ambition. Suburban
-      development reflects current housing patterns and cultural preference.
-    </p>
+<header class="article-header">
+  <p class="article-section-label">Outdoors</p>
+  <h1 class="article-title">The Three Landscapes of the Basin</h1>
+  <p class="article-subtitle">
+    Shrub-steppe, irrigation, and suburbia as three overlapping layers of regional civilization.
+  </p>
+  <div class="article-divider"></div>
+  <p class="article-byline">By Amber Peters</p>
+  <p class="article-date">[Month Year]</p>
+</header>
 
-    <p>
-      Seen together, they form a readable map of civilization in the Columbia Basin.
-    </p>
-  </main>
+<div class="article-hero">
+  Photo Placeholder
+</div>
+
+<article class="article-body">
+  <p>
+    The Tri-Cities sits within a landscape that is often described too simply. To call it desert leaves out the river, the irrigation networks, the orchards, the subdivisions, and the strange coexistence of native dryness with imported abundance. To understand the Columbia Basin more clearly, it helps to think of it as a place defined by three overlapping landscapes.
+  </p>
+
+  <p>
+    The first is the shrub-steppe: open, dry, wind-shaped, and often understated to people who do not know how to read it. This is the deeper ecological ground of the region, with its sagebrush, bunchgrasses, exposed soils, and broad horizons. It is the landscape that existed before large-scale settlement and irrigation, and it still frames the basin visually even where development has spread.
+  </p>
+
+  <p>
+    The second is the irrigated landscape. Water transformed the basin into a managed agricultural world of fields, orchards, canals, and shelterbelts. This layer of the landscape is artificial in one sense but now deeply regional in another. It represents one of the most powerful interventions in the basin’s history: the conversion of arid land into cultivated productivity.
+  </p>
+
+  <p>
+    The third is the suburban landscape: streets, cul-de-sacs, schools, shopping corridors, lawns, retention ponds, and master-planned neighborhoods. This newer layer often presents itself as ordinary, but it depends on the other two. It is shaped by the underlying climate and by the water systems that make dense settlement and green domestic landscapes possible.
+  </p>
+
+  <p>
+    These three landscapes do not replace one another cleanly. They overlap, interrupt, and frame each other. A subdivision may back up to a dry hillside. A trail may move from native ground to irrigated edges to newer housing. A single view from above may contain all three at once. The Tri-Cities is not just one landscape, but a layered regional condition that is still being built and negotiated.
+  </p>
+</article>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© Civilization Tri-Cities</p>
+  </div>
+</footer>
+
+<script>
+  const menuToggle = document.querySelector(".menu-toggle");
+  const siteNav = document.getElementById("site-nav");
+
+  if (menuToggle && siteNav) {
+    menuToggle.addEventListener("click", () => {
+      siteNav.classList.toggle("open");
+    });
+  }
+</script>
+
 </body>
 </html>
