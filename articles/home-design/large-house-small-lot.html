@@ -4,13 +4,21 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>The Large House, Small Lot Paradox | Civilization Tri-Cities</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-final.png">
   <link rel="stylesheet" href="../../style.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="container">
-      <h1><a href="../../index.html">Civilization Tri-Cities</a></h1>
-      <nav>
+
+<header class="site-header">
+  <div class="container header-layout">
+    <div class="header-text">
+      <h1>
+        <a href="../../index.html">Civilization Tri-Cities</a>
+      </h1>
+
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+
+      <nav id="site-nav">
         <ul class="nav-list">
           <li><a href="../../sections/home-design/index.html">Home + Design</a></li>
           <li><a href="../../sections/arts-culture/index.html">Arts + Culture</a></li>
@@ -19,29 +27,64 @@
         </ul>
       </nav>
     </div>
-  </header>
 
-  <main class="container article-page">
-    <p class="kicker">Home + Design</p>
-    <h1>The Large House, Small Lot Paradox</h1>
+    <img src="../../updated_logo.png" alt="Civilization Tri-Cities logo" class="header-logo">
+  </div>
+</header>
 
-    <p>
-      In newer subdivisions across the Tri-Cities, houses often occupy most of the lot.
-      Many are tall, wide, and garage-forward, while the backyard is reduced to a narrow
-      strip of fenced space.
-    </p>
+<main>
 
-    <p>
-      This is especially noticeable in a region surrounded by open land. The paradox is
-      not scarcity in the geographic sense, but the way land is divided, marketed, and
-      standardized within the subdivision itself.
-    </p>
+<header class="article-header">
+  <p class="article-section-label">Home + Design</p>
+  <h1 class="article-title">The Large House, Small Lot Paradox</h1>
+  <p class="article-subtitle">
+    A look at oversized houses, undersized yards, and the visual logic of contemporary subdivision growth.
+  </p>
+  <div class="article-divider"></div>
+  <p class="article-byline">By Amber Peters</p>
+  <p class="article-date">[Month Year]</p>
+</header>
 
-    <p>
-      In these neighborhoods, the house becomes the dominant object and the yard becomes
-      secondary. Outdoor space still exists, but often as a buffer rather than a meaningful
-      extension of the home.
-    </p>
-  </main>
+<div class="article-hero">
+  Photo Placeholder
+</div>
+
+<article class="article-body">
+  <p>
+    One of the most recognizable features of newer Tri-Cities development is the pairing of large houses with relatively small lots. The result is a streetscape defined less by yard space than by built mass: broad façades, deep garages, narrow side yards, and houses that seem to occupy nearly the entire parcel.
+  </p>
+
+  <p>
+    This pattern is not unique to the Tri-Cities, but it is especially visible here, where suburban expansion continues across open land and where the ideal of the detached single-family home remains central to local growth. These neighborhoods promise space, privacy, and domestic aspiration, yet the lots themselves often leave little room for trees, shade, or meaningful outdoor space beyond a backyard strip.
+  </p>
+
+  <p>
+    The paradox is that these houses are large partly because they are meant to symbolize abundance, but the surrounding lots can make that abundance feel compressed. What results is a built environment where square footage is prioritized over site proportion, and where the visual identity of the neighborhood is shaped by garage doors, rooflines, and wall surface more than by landscape or street enclosure.
+  </p>
+
+  <p>
+    In the Tri-Cities, where heat, exposure, and irrigation already place pressure on outdoor comfort, the relationship between house size and lot size becomes more than a question of taste. It also affects shade, water use, walkability, and the overall feel of neighborhood life. The large house, small lot pattern is therefore not just a real estate formula, but a revealing expression of how contemporary growth is being imagined and built.
+  </p>
+</article>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© Civilization Tri-Cities</p>
+  </div>
+</footer>
+
+<script>
+  const menuToggle = document.querySelector(".menu-toggle");
+  const siteNav = document.getElementById("site-nav");
+
+  if (menuToggle && siteNav) {
+    menuToggle.addEventListener("click", () => {
+      siteNav.classList.toggle("open");
+    });
+  }
+</script>
+
 </body>
 </html>
