@@ -4,13 +4,21 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tri-Cities Murals | Civilization Tri-Cities</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-final.png">
   <link rel="stylesheet" href="../../style.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="container">
-      <h1><a href="../../index.html">Civilization Tri-Cities</a></h1>
-      <nav>
+
+<header class="site-header">
+  <div class="container header-layout">
+    <div class="header-text">
+      <h1>
+        <a href="../../index.html">Civilization Tri-Cities</a>
+      </h1>
+
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+
+      <nav id="site-nav">
         <ul class="nav-list">
           <li><a href="../../sections/home-design/index.html">Home + Design</a></li>
           <li><a href="../../sections/arts-culture/index.html">Arts + Culture</a></li>
@@ -19,23 +27,60 @@
         </ul>
       </nav>
     </div>
-  </header>
 
-  <main class="container article-page">
-    <p class="kicker">Arts + Culture</p>
-    <h1>Tri-Cities Murals</h1>
+    <img src="../../updated_logo.png" alt="Civilization Tri-Cities logo" class="header-logo">
+  </div>
+</header>
 
-    <p>
-      Murals in the Tri-Cities add color and identity to spaces that might otherwise feel
-      purely functional. They can turn a blank wall into a landmark and help distinguish one
-      district from another.
-    </p>
+<main>
 
-    <p>
-      In a region shaped by infrastructure, agriculture, and suburban growth, murals also
-      introduce local texture. They suggest that culture is not separate from the built
-      environment, but part of how a place becomes recognizable to itself.
-    </p>
-  </main>
+<header class="article-header">
+  <p class="article-section-label">Arts + Culture</p>
+  <h1 class="article-title">Tri-Cities Murals</h1>
+  <p class="article-subtitle">
+    How murals create identity, texture, and visual surprise in a highly functional landscape.
+  </p>
+  <div class="article-divider"></div>
+  <p class="article-byline">By Amber Peters</p>
+  <p class="article-date">[Month Year]</p>
+</header>
+
+<div class="article-hero">
+  Photo Placeholder
+</div>
+
+<article class="article-body">
+  <p>
+    Murals in the Tri-Cities do more than decorate blank walls. They interrupt ordinary commercial surfaces with color, symbolism, memory, and civic aspiration. In a region shaped by infrastructure, subdivision growth, and utilitarian building forms, murals can create moments of visual emphasis that feel unusually deliberate.
+  </p>
+
+  <p>
+    Some murals serve as local branding, some as public art, and others as expressions of neighborhood identity. Together they offer a small but telling record of what the region wants to celebrate, remember, or make visible. They introduce texture into an environment that can otherwise feel highly functional and spatially repetitive.
+  </p>
+
+  <p>
+    To look at murals in the Tri-Cities is also to look at how culture appears on the surface of the built landscape: on walls, corridors, civic buildings, and commercial facades. These works may be temporary or enduring, modest or ambitious, but they help shape the visual language of the region.
+  </p>
+</article>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© Civilization Tri-Cities</p>
+  </div>
+</footer>
+
+<script>
+  const menuToggle = document.querySelector(".menu-toggle");
+  const siteNav = document.getElementById("site-nav");
+
+  if (menuToggle && siteNav) {
+    menuToggle.addEventListener("click", () => {
+      siteNav.classList.toggle("open");
+    });
+  }
+</script>
+
 </body>
 </html>
