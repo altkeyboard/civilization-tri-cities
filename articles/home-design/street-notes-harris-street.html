@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Street Notes: [Street Name] | Civilization Tri-Cities</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-final.png">
+  <link rel="stylesheet" href="../../style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-layout">
+    <div class="header-text">
+      <h1>
+        <a href="../../index.html">Civilization Tri-Cities</a>
+      </h1>
+
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+
+      <nav id="site-nav">
+        <ul class="nav-list">
+          <li><a href="../../sections/home-design/index.html">Home + Design</a></li>
+          <li><a href="../../sections/arts-culture/index.html">Arts + Culture</a></li>
+          <li><a href="../../sections/outdoors/index.html">Outdoors</a></li>
+          <li><a href="../../about/index.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <img src="../../updated_logo.png" alt="Civilization Tri-Cities logo" class="header-logo">
+  </div>
+</header>
+
+<main>
+
+<header class="article-header">
+  <p class="article-section-label">Home + Design</p>
+  <h1 class="article-title">Street Notes: [Street Name]</h1>
+  <p class="article-subtitle">
+    A brief look at one street and what it reveals about the built landscape of the Tri-Cities.
+  </p>
+  <div class="article-divider"></div>
+  <p class="article-byline">By Amber Peters</p>
+  <p class="article-date">[Month Year]</p>
+</header>
+
+<div class="article-hero">
+  Photo Placeholder
+</div>
+
+<article class="article-body">
+  <p>
+    [Street Name] is the kind of street that helps explain how this part of the Tri-Cities was built. Its homes, setbacks, pavement width, street trees, and overall rhythm reveal a particular moment in the region’s development.
+  </p>
+
+  <p>
+    Some streets stand out because they are dramatic. Others are interesting because they are ordinary in a very specific way. This one offers clues about local planning habits, neighborhood character, and the visual language of everyday residential life in the Columbia Basin.
+  </p>
+
+  <p>
+    Looking closely at a single street can say a surprising amount about scale, taste, age, maintenance, and the relationship between private property and public space. Street Notes is a recurring feature about those small but telling details.
+  </p>
+</article>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© Civilization Tri-Cities</p>
+  </div>
+</footer>
+
+<script>
+  const menuToggle = document.querySelector(".menu-toggle");
+  const siteNav = document.getElementById("site-nav");
+
+  if (menuToggle && siteNav) {
+    menuToggle.addEventListener("click", () => {
+      siteNav.classList.toggle("open");
+    });
+  }
+</script>
+
+</body>
+</html>
