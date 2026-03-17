@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Guidebook | Civilization Tri-Cities</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-final.png">
+  <link rel="stylesheet" href="../../style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-layout">
+    <div class="header-text">
+      <h1>
+        <a href="../../index.html">Civilization Tri-Cities</a>
+      </h1>
+
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+
+      <nav id="site-nav">
+        <ul class="nav-list">
+          <li><a href="../../sections/home-design/index.html">Home + Design</a></li>
+          <li><a href="../../sections/arts-culture/index.html">Arts + Culture</a></li>
+          <li><a href="../../sections/outdoors/index.html">Outdoors</a></li>
+          <li><a href="../../sections/guidebook/index.html">The Guidebook</a></li>
+          <li><a href="../../about/index.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <img src="../../logo_white.png" alt="Civilization Tri-Cities logo" class="header-logo">
+  </div>
+</header>
+
+<main class="container">
+
+  <section class="section-page-header">
+    <h1 class="section-page-title">The Guidebook</h1>
+    <p class="section-page-intro">
+      A field guide to useful, interesting, and distinctive places in and around the Tri-Cities.
+    </p>
+  </section>
+
+  <section class="featured-section">
+
+    <div class="lead-grid">
+
+      <article class="lead-story">
+        <div class="feature-image placeholder-image">
+          Day Trips
+        </div>
+
+        <div class="lead-story-content">
+          <p class="kicker">The Guidebook</p>
+
+          <h3>
+            <a href="../../articles/guidebook/day-trip-benton-city.html">
+              Day Trip: Benton City
+            </a>
+          </h3>
+
+          <p>
+            A short drive to a smaller basin town where vineyards, highway, river country, and main street all meet.
+          </p>
+        </div>
+      </article>
+
+      <div class="secondary-stories">
+
+        <article class="feature-card">
+          <div class="feature-image placeholder-image">
+            Places to Stay
+          </div>
+
+          <div class="feature-card-content">
+            <p class="kicker">The Guidebook</p>
+
+            <h3>
+              <a href="#">
+                Places to Stay in the Tri-Cities
+              </a>
+            </h3>
+
+            <p>
+              A developing guide to hotels, inns, and overnight options in and around the Tri-Cities.
+            </p>
+          </div>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-image placeholder-image">
+            Day Trips
+          </div>
+
+          <div class="feature-card-content">
+            <p class="kicker">The Guidebook</p>
+
+            <h3>
+              <a href="#">
+                More Day Trips Coming Soon
+              </a>
+            </h3>
+
+            <p>
+              Future entries will highlight nearby towns, scenic routes, river places, and basin destinations worth the drive.
+            </p>
+          </div>
+        </article>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <ul class="section-page-list">
+    <li>
+      <a href="#">
+        <h2>Day Trips</h2>
+        <p>Short excursions to places around the Tri-Cities and the wider Columbia Basin.</p>
+      </a>
+    </li>
+
+    <li>
+      <a href="#">
+        <h2>Places to Stay</h2>
+        <p>Hotels, inns, and lodging options for visitors exploring the region.</p>
+      </a>
+    </li>
+  </ul>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© Civilization Tri-Cities</p>
+  </div>
+</footer>
+
+<script>
+  const menuToggle = document.querySelector(".menu-toggle");
+  const siteNav = document.getElementById("site-nav");
+
+  if (menuToggle && siteNav) {
+    menuToggle.addEventListener("click", () => {
+      siteNav.classList.toggle("open");
+    });
+  }
+</script>
+
+</body>
+</html>
