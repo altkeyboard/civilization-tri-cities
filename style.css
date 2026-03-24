@@ -443,16 +443,13 @@ body {
 }
 
 .article-hero-image {
-  max-width: 900px;
+  max-width: 720px;
   margin: 0 auto 2rem;
 }
 
 .article-hero-image img {
   width: 100%;
-  max-width: 900px;
-  height: 420px;
-  object-fit: cover;
-  object-position: center center;
+  height: auto;
   display: block;
   margin: 0 auto;
 }
