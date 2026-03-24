@@ -449,9 +449,7 @@ body {
 
 .article-hero-image img {
   width: 100%;
-  max-width: 900px;
-  height: 420px;
-  object-fit: cover;
+  height: auto;
   display: block;
   margin: 0 auto;
 }
