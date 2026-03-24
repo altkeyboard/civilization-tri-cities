@@ -449,8 +449,11 @@ body {
 
 .article-hero-image img {
   width: 100%;
-  height: auto;
+  max-width: 900px;
+  height: 420px;
+  object-fit: cover;
   display: block;
+  margin: 0 auto;
 }
 
 .article-hero-image figcaption {
