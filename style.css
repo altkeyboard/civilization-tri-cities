@@ -510,12 +510,16 @@ body {
 
 .mural-card img {
   width: 100%;
-  height: 100%;
-  min-height: 320px;
+  height: 320px;
   object-fit: cover;
   display: block;
   filter: grayscale(100%);
   transition: filter 0.25s ease, transform 0.25s ease;
+}
+
+.mural-card-large img,
+.mural-card-wide img {
+  height: 420px;
 }
 
 .mural-card:hover img {
@@ -550,8 +554,10 @@ body {
     grid-column: span 12;
   }
 
-  .mural-card img {
-    min-height: 260px;
+  .mural-card img,
+  .mural-card-large img,
+  .mural-card-wide img {
+    height: 260px;
   }
 }
 
