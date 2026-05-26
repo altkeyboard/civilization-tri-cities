@@ -14,13 +14,25 @@ async function loadHomepageArticles() {
 
     if (!leadContainer || !secondaryContainer || featured.length === 0) return;
 
+    function getArticleImage(article) {
+      if (article.image) {
+        return `
+          <img src="${article.image}" alt="${article.title}" class="feature-image-img">
+        `;
+      }
+
+      return `
+        <div class="feature-image placeholder-image">
+          ${article.imageLabel}
+        </div>
+      `;
+    }
+
     // First article = lead story
     const lead = featured[0];
     leadContainer.innerHTML = `
       <article class="lead-story">
-        <div class="feature-image placeholder-image">
-          ${lead.imageLabel}
-        </div>
+        ${getArticleImage(lead)}
 
         <div class="lead-story-content">
           <p class="kicker">${lead.section}</p>
@@ -42,9 +54,7 @@ async function loadHomepageArticles() {
     const secondary = featured.slice(1);
     secondaryContainer.innerHTML = secondary.map(article => `
       <article class="feature-card">
-        <div class="feature-image placeholder-image">
-          ${article.imageLabel}
-        </div>
+        ${getArticleImage(article)}
 
         <div class="feature-card-content">
           <p class="kicker">${article.section}</p>
