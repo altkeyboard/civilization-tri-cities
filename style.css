@@ -487,6 +487,19 @@ body {
   margin-bottom: 1.25rem;
 }
 
+.article-video {
+  max-width: 900px;
+  margin: 0 auto 3rem;
+  padding: 0 1.5rem;
+}
+
+.article-video iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  display: block;
+}
+
 /* TRI-CITIES MURALS PAGE */
 
 .mural-intro {
