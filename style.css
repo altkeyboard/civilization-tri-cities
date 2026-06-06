@@ -313,7 +313,6 @@ body {
   height: 180px;
   object-fit: cover;
   display: block;
-  filter: grayscale(100%);
 }
 
 .placeholder-image {
