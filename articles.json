@@ -1,13 +1,5 @@
 [
   {
-    "title": "Hike of the Month: Badger Mountain",
-    "subtitle": "A familiar local climb with expansive views across the Tri-Cities and the surrounding Columbia Basin.",
-    "section": "Outdoors",
-    "date": "2026-03-11",
-    "url": "articles/outdoors/hike-of-the-month-badger-mountain.html",
-    "imageLabel": "Outdoors"
-  },
-  {
     "title": "Weekend Camp: Tucannon River",
     "subtitle": "A Blue Mountains camping trip within weekend reach of the Tri-Cities.",
     "section": "Outdoors",
@@ -15,14 +7,6 @@
     "url": "articles/outdoors/weekend-camp-tucannon-river.html",
     "imageLabel": "Outdoors",
     "image": "images/outdoors/tucannon-river.jpg"
-  }
-  {
-    "title": "The Three Landscapes of the Basin",
-    "subtitle": "Shrub-steppe, irrigation, and suburbia as three overlapping layers of regional civilization.",
-    "section": "Outdoors",
-    "date": "2026-03-01",
-    "url": "articles/outdoors/three-landscapes-of-the-basin.html",
-    "imageLabel": "Outdoors"
   },
   {
     "title": "Tri-Cities Murals",
@@ -31,7 +15,23 @@
     "date": "2026-05-25",
     "url": "articles/arts-culture/tri-cities-murals.html",
     "imageLabel": "Arts + Culture",
-  "image": "images/murals/3_rays.jpg"
+    "image": "images/murals/3_rays.jpg"
+  },
+  {
+    "title": "Hike of the Month: Badger Mountain",
+    "subtitle": "A familiar local climb with expansive views across the Tri-Cities and the surrounding Columbia Basin.",
+    "section": "Outdoors",
+    "date": "2026-03-11",
+    "url": "articles/outdoors/hike-of-the-month-badger-mountain.html",
+    "imageLabel": "Outdoors"
+  },
+  {
+    "title": "The Three Landscapes of the Basin",
+    "subtitle": "Shrub-steppe, irrigation, and suburbia as three overlapping layers of regional civilization.",
+    "section": "Outdoors",
+    "date": "2026-03-01",
+    "url": "articles/outdoors/three-landscapes-of-the-basin.html",
+    "imageLabel": "Outdoors"
   },
   {
     "title": "The Large House, Small Lot Paradox",
