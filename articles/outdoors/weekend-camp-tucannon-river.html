@@ -1,3 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weekend Camp: Tucannon River | Civilization Tri-Cities</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-final.png">
+  <link rel="stylesheet" href="../../style.css?v=2" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-layout">
+    <div class="header-text">
+      <h1>
+        <a href="../../index.html">Civilization Tri-Cities</a>
+      </h1>
+
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+
+      <nav id="site-nav">
+        <ul class="nav-list">
+          <li><a href="../../sections/home-design/index.html">Home + Design</a></li>
+          <li><a href="../../sections/arts-culture/index.html">Arts + Culture</a></li>
+          <li><a href="../../sections/outdoors/index.html">Outdoors</a></li>
+          <li><a href="../../sections/guidebook/index.html">The Guidebook</a></li>
+          <li><a href="../../about/index.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <img src="../../updated_logo.png" alt="Civilization Tri-Cities logo" class="header-logo">
+  </div>
+</header>
+
+<main>
+
+<header class="article-header">
+  <p class="article-section-label">Outdoors</p>
+  <h1 class="article-title">Weekend Camp: Tucannon River</h1>
+  <p class="article-subtitle">
+    A Blue Mountains camping trip within weekend reach of the Tri-Cities.
+  </p>
+  <div class="article-divider"></div>
+  <p class="article-byline">By Civilization Tri-Cities</p>
+  <p class="article-date">June 2026</p>
+</header>
+
 <article class="article-body">
   <p>
     Tucannon River sits in the Blue Mountains southeast of the Tri-Cities, close enough for a weekend but far enough to feel like a different landscape.
@@ -14,6 +62,24 @@
   </iframe>
 </section>
 
-<section class="mural-gallery" aria-label="Tucannon River camping photo gallery">
-  ...
-</section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© Civilization Tri-Cities</p>
+  </div>
+</footer>
+
+<script>
+  const menuToggle = document.querySelector(".menu-toggle");
+  const siteNav = document.getElementById("site-nav");
+
+  if (menuToggle && siteNav) {
+    menuToggle.addEventListener("click", () => {
+      siteNav.classList.toggle("open");
+    });
+  }
+</script>
+
+</body>
+</html>
