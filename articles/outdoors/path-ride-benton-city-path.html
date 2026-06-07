@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Path Ride: Benton City Path | Civilization Tri-Cities</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-final.png">
+  <link rel="stylesheet" href="../../style.css?v=2" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-layout">
+    <div class="header-text">
+      <h1>
+        <a href="../../index.html">Civilization Tri-Cities</a>
+      </h1>
+
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+
+      <nav id="site-nav">
+        <ul class="nav-list">
+          <li><a href="../../sections/home-design/index.html">Home + Design</a></li>
+          <li><a href="../../sections/arts-culture/index.html">Arts + Culture</a></li>
+          <li><a href="../../sections/outdoors/index.html">Outdoors</a></li>
+          <li><a href="../../sections/guidebook/index.html">The Guidebook</a></li>
+          <li><a href="../../about/index.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <img src="../../updated_logo.png" alt="Civilization Tri-Cities logo" class="header-logo">
+  </div>
+</header>
+
+<main>
+
+<header class="article-header">
+  <p class="article-section-label">Outdoors</p>
+  <h1 class="article-title">Path Ride: Benton City Path</h1>
+  <p class="article-subtitle">
+    A short GoPro ride along a local path near Benton City.
+  </p>
+  <div class="article-divider"></div>
+  <p class="article-byline">By Civilization Tri-Cities</p>
+  <p class="article-date">June 2026</p>
+</header>
+
+<article class="article-body">
+  <p>
+    The Benton City Path offers a simple local ride with open views, small-town edges, and a slower look at the landscape west of the Tri-Cities.
+  </p>
+
+  <p>
+    This short ride video is part of the Path Ride series, a recurring look at bike paths, riverfront routes, neighborhood connectors, and easy regional rides within reach of the Tri-Cities.
+  </p>
+
+  <p>
+    <a href="https://maps.app.goo.gl/eoZRSaJWkRKFCsMw9" target="_blank" rel="noopener noreferrer">
+      View the Benton City Path location on Google Maps
+    </a>
+  </p>
+</article>
+
+<section class="article-video">
+  <iframe
+    src="https://www.youtube.com/embed/x8lajUWaZPU"
+    title="Path Ride: Benton City Path"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© Civilization Tri-Cities</p>
+  </div>
+</footer>
+
+<script>
+  const menuToggle = document.querySelector(".menu-toggle");
+  const siteNav = document.getElementById("site-nav");
+
+  if (menuToggle && siteNav) {
+    menuToggle.addEventListener("click", () => {
+      siteNav.classList.toggle("open");
+    });
+  }
+</script>
+
+</body>
+</html>
