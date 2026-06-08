@@ -46,23 +46,14 @@
     </p>
   </section>
 
-  <section class="container section-card-grid">
+   <section class="container featured-section">
 
-    <article class="section-feature-card">
-      <a href="#">
-        <div class="section-card-image placeholder-image">
-          Coming Soon
-        </div>
+    <div class="section-heading">
+      <p class="kicker">Featured</p>
+      <h2>Upcoming Events</h2>
+    </div>
 
-        <div class="section-card-content">
-          <p class="kicker">Upcoming Events</p>
-          <h2>Calendar listings are coming soon</h2>
-          <p>
-            This section will eventually feature chronological event listings from around the Tri-Cities area.
-          </p>
-        </div>
-      </a>
-    </article>
+    <div class="event-card-row" id="featured-events-container"></div>
 
   </section>
 
@@ -73,6 +64,8 @@
     <p>© Civilization Tri-Cities</p>
   </div>
 </footer>
+
+<script src="../../calendar-events.js"></script>
 
 <script>
   const menuToggle = document.querySelector(".menu-toggle");
