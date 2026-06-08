@@ -15,4 +15,22 @@
     "url": "https://filmfreeway.com/TriCitiesInternationalFilmFestival",
     "featured": true
   }
+
+  {
+    "title": "Cool Desert Nights",
+    "startDate": "2026-06-26",
+    "endDate": "2026-06-27",
+    "displayDate": "June 26–27, 2026",
+    "month": "JUN",
+    "dayRange": "26–27",
+    "category": "Cars",
+    "secondaryCategory": "Community",
+    "city": "Richland",
+    "location": "Richland, Washington",
+    "description": "A classic car weekend in Richland with a cruise, Show N Shine, Party in the Park, and other community events.",
+    "image": "images/events/cool-desert-nights.png",
+    "url": "https://www.richlandchamber.org/cool-desert-nights",
+    "featured": true
+  }
+  
 ]
