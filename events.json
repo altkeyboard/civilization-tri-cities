@@ -3,12 +3,16 @@
     "title": "Tri-Cities International Film Festival",
     "startDate": "2026-11-06",
     "endDate": "2026-11-08",
+    "displayDate": "Nov. 6–8, 2026",
+    "month": "NOV",
+    "dayRange": "6–8",
     "category": "Film",
     "secondaryCategory": "Arts + Culture",
     "city": "Richland",
     "location": "Richland Players Theater / Richland Community Center",
-    "description": "An annual independent film festival spotlighting short and feature films from regional and international filmmakers.",
+    "description": "An annual independent film festival spotlighting independent films and filmmakers in the Tri-Cities.",
     "image": "images/events/trifi-film-festival.jpg",
-    "url": "https://filmfreeway.com/TriCitiesInternationalFilmFestival"
+    "url": "https://filmfreeway.com/TriCitiesInternationalFilmFestival",
+    "featured": true
   }
 ]
