@@ -17,14 +17,15 @@
     "imageLabel": "Arts + Culture",
     "image": "images/murals/3_rays.jpg"
   },
-  {
-    "title": "Hike of the Month: Badger Mountain",
-    "subtitle": "A familiar local climb with expansive views across the Tri-Cities and the surrounding Columbia Basin.",
-    "section": "Outdoors",
-    "date": "2026-03-11",
-    "url": "articles/outdoors/hike-of-the-month-badger-mountain.html",
-    "imageLabel": "Outdoors"
-  },
+ {
+  "title": "Hike of the Month: Rattlesnake Loop Access",
+  "subtitle": "A small access point with connections into a larger trail network near Rattlesnake Mountain.",
+  "section": "Outdoors",
+  "date": "2026-06-05",
+  "url": "articles/outdoors/hike-of-the-month-rattlesnake-loop-access.html",
+  "imageLabel": "Outdoors",
+  "image": "images/outdoors/rattlesnake-loop-access.jpg"
+},
   {
     "title": "The Three Landscapes of the Basin",
     "subtitle": "Shrub-steppe, irrigation, and suburbia as three overlapping layers of regional civilization.",
