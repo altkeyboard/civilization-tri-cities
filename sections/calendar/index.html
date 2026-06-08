@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>The Calendar | Civilization Tri-Cities</title>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-final.png">
+  <link rel="stylesheet" href="../../style.css?v=2" />
+</head>
+
+<body>
+
+<header class="site-header">
+  <div class="container header-layout">
+    <div class="header-text">
+      <h1>
+        <a href="../../index.html">Civilization Tri-Cities</a>
+      </h1>
+
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+
+      <nav id="site-nav">
+        <ul class="nav-list">
+          <li><a href="../home-design/index.html">Home + Design</a></li>
+          <li><a href="../arts-culture/index.html">Arts + Culture</a></li>
+          <li><a href="../outdoors/index.html">Outdoors</a></li>
+          <li><a href="../guidebook/index.html">The Guidebook</a></li>
+          <li><a href="../calendar/index.html">The Calendar</a></li>
+          <li><a href="../../about/index.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <img src="../../updated_logo.png" alt="Civilization Tri-Cities logo" class="header-logo">
+  </div>
+</header>
+
+<main>
+
+  <section class="container section-page-header">
+    <h1 class="section-page-title">The Calendar</h1>
+    <p class="section-page-intro">
+      A developing guide to events, openings, markets, performances, talks, festivals, and other things happening around greater Tri-Cities.
+    </p>
+  </section>
+
+  <section class="container section-card-grid">
+
+    <article class="section-feature-card">
+      <a href="#">
+        <div class="section-card-image placeholder-image">
+          Coming Soon
+        </div>
+
+        <div class="section-card-content">
+          <p class="kicker">Upcoming Events</p>
+          <h2>Calendar listings are coming soon</h2>
+          <p>
+            This section will eventually feature chronological event listings from around the Tri-Cities area.
+          </p>
+        </div>
+      </a>
+    </article>
+
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© Civilization Tri-Cities</p>
+  </div>
+</footer>
+
+<script>
+  const menuToggle = document.querySelector(".menu-toggle");
+  const siteNav = document.getElementById("site-nav");
+
+  if (menuToggle && siteNav) {
+    menuToggle.addEventListener("click", () => {
+      siteNav.classList.toggle("open");
+    });
+  }
+</script>
+
+</body>
+</html>
