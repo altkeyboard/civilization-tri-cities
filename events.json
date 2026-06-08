@@ -14,8 +14,7 @@
     "image": "images/events/trifi-film-festival.png",
     "url": "https://filmfreeway.com/TriCitiesInternationalFilmFestival",
     "featured": true
-  }
-
+  },
   {
     "title": "Cool Desert Nights",
     "startDate": "2026-06-26",
@@ -32,5 +31,4 @@
     "url": "https://www.richlandchamber.org/cool-desert-nights",
     "featured": true
   }
-  
 ]
