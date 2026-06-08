@@ -565,10 +565,10 @@ body {
 
 .video-card-embed iframe {
   width: 100%;
-  height: 180px;
+  height: 100%;
   display: block;
+  border: 0;
 }
-
 /* TRI-CITIES MURALS PAGE */
 
 .mural-intro {
