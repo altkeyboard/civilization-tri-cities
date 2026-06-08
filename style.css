@@ -558,13 +558,14 @@ body {
 
 .video-card-embed {
   width: 100%;
-  aspect-ratio: 16 / 9;
+  height: 180px;
   background: #f2f2f2;
+  overflow: hidden;
 }
 
 .video-card-embed iframe {
   width: 100%;
-  height: 100%;
+  height: 180px;
   display: block;
 }
 
