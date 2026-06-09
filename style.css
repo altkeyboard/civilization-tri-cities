@@ -682,6 +682,12 @@ body {
 
 /* HOMEPAGE SECTION DIVIDERS */
 
+.featured-section + .featured-videos-section {
+  border-top: 1px solid #e5e5e5;
+  padding-top: 3rem;
+  margin-top: 2.5rem;
+}
+
 .featured-videos-section {
   padding-bottom: 3.5rem;
   margin-bottom: 2.5rem;
