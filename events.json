@@ -30,5 +30,21 @@
     "image": "images/events/cool-desert-nights.png",
     "url": "https://www.richlandchamber.org/cool-desert-nights",
     "featured": true
-  }
+  }, 
+  {
+  "title": "Beyond Wonderland Preparty",
+  "startDate": "2026-06-26",
+  "endDate": "2026-06-26",
+  "displayDate": "June 26, 2026",
+  "month": "JUN",
+  "dayRange": "26",
+  "category": "Music",
+  "secondaryCategory": "Festival",
+  "city": "Quincy",
+  "location": "Gorge Amphitheatre",
+  "description": "A preparty event at the Gorge Amphitheatre ahead of the Beyond Wonderland festival weekend.",
+  "image": "images/events/beyond-wonderland-preparty.png",
+  "url": "https://www.georgeamphitheatre.com/events/beyond-wonderland-preparty-26-june-2026/",
+  "featured": true
+}
 ]
