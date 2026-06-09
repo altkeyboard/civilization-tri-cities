@@ -680,6 +680,18 @@ body {
   border: 0;
 }
 
+/* HOMEPAGE SECTION DIVIDERS */
+
+.featured-videos-section {
+  padding-bottom: 3.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.featured-videos-section + .featured-section {
+  border-top: 1px solid #e5e5e5;
+  padding-top: 3rem;
+}
+
 /* TRI-CITIES MURALS PAGE */
 
 .mural-intro {
