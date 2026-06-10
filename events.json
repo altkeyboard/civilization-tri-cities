@@ -63,5 +63,21 @@
     "image": "images/events/bass-canyon.png",
     "url": "https://www.georgeamphitheatre.com/events/bass-canyon-festival-3-day-pass-14-august-2026/",
     "featured": false
+  },
+  {
+  "title": "Chris Stapleton’s All-American Road Show",
+  "startDate": "2026-07-24",
+  "endDate": "2026-07-25",
+  "displayDate": "July 24–25, 2026",
+  "month": "JUL",
+  "dayRange": "24–25",
+  "category": "Music",
+  "secondaryCategory": "Concert",
+  "city": "Quincy",
+  "location": "Gorge Amphitheatre",
+  "description": "A two-night country concert event at the Gorge Amphitheatre featuring Chris Stapleton and Grace Potter.",
+  "image": "images/events/chris-stapleton.png",
+  "url": "https://www.georgeamphitheatre.com/events/chris-stapletons-all-american-road-show-chris-stapleton-grace-potter-24-july-2026/",
+  "featured": false
   }
 ]
