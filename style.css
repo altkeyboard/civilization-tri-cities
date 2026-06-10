@@ -507,11 +507,15 @@ body {
 
 .calendar-list-item {
   display: grid;
-  grid-template-columns: 170px 1fr;
+  grid-template-columns: 170px minmax(0, 1fr);
   gap: 1.25rem;
   align-items: start;
   padding: 1.25rem 0;
   border-bottom: 1px solid #e5e5e5;
+}
+
+.calendar-list-content {
+  min-width: 0;
 }
 
 .calendar-list-image-link {
@@ -576,7 +580,7 @@ body {
   margin-top: 0;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 520px) {
   .calendar-list-item {
     grid-template-columns: 115px 1fr;
     gap: 0.9rem;
