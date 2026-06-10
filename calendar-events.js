@@ -16,30 +16,24 @@ async function loadCalendarEvents() {
     const featuredContainer = document.getElementById("featured-events-container");
     const listContainer = document.getElementById("calendar-list-container");
 
-    if (heroContainer && heroEvent) {
-      heroContainer.innerHTML = `
-        <article class="calendar-hero-card">
-          <a href="${heroEvent.url}" target="_blank" rel="noopener noreferrer">
-            <div class="calendar-hero-image-wrap">
-              <img src="../../${heroEvent.image}" alt="${heroEvent.title}" class="calendar-hero-image">
+if (heroContainer && heroEvent) {
+  heroContainer.innerHTML = `
+    <article class="calendar-hero-card">
+      <a href="${heroEvent.url}" target="_blank" rel="noopener noreferrer">
+        <div class="calendar-hero-image-wrap">
+          <img src="../../${heroEvent.image}" alt="${heroEvent.title}" class="calendar-hero-image">
 
-              <div class="event-date-badge calendar-hero-date">
-                <span class="event-month">${heroEvent.month}</span>
-                <span class="event-day">${heroEvent.dayRange}</span>
-              </div>
-            </div>
-
-            <div class="calendar-hero-content">
-              <p class="kicker">${heroEvent.secondaryCategory} / ${heroEvent.category}</p>
-              <h2>${heroEvent.title}</h2>
-              <p class="event-meta">${heroEvent.displayDate} · ${heroEvent.location} · ${heroEvent.city}</p>
-              <p>${heroEvent.description}</p>
-              <p class="calendar-hero-link">View Event</p>
-            </div>
-          </a>
-        </article>
-      `;
-    }
+          <div class="calendar-hero-overlay">
+            <p class="kicker">${heroEvent.secondaryCategory} / ${heroEvent.category}</p>
+            <h2>${heroEvent.title}</h2>
+            <p class="calendar-hero-meta">${heroEvent.location} · ${heroEvent.displayDate}</p>
+            <span class="calendar-hero-link">View Event</span>
+          </div>
+        </div>
+      </a>
+    </article>
+  `;
+}
 
     if (featuredContainer && featuredEvents.length > 0) {
       featuredContainer.innerHTML = featuredEvents.map(event => `
