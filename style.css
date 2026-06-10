@@ -391,17 +391,32 @@ body {
 /* CALENDAR LIST */
 
 .calendar-list {
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto 3rem;
   border-top: 1px solid #e5e5e5;
 }
 
 .calendar-list-item {
   display: grid;
-  grid-template-columns: 90px 1fr;
+  grid-template-columns: 150px 80px 1fr;
   gap: 1.25rem;
+  align-items: start;
   padding: 1.25rem 0;
   border-bottom: 1px solid #e5e5e5;
+}
+
+.calendar-list-image-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.calendar-list-image {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+  display: block;
+  background: #f2f2f2;
 }
 
 .calendar-list-date {
@@ -421,7 +436,7 @@ body {
 
 .calendar-list-date strong {
   display: block;
-  font-size: 1.35rem;
+  font-size: 1.25rem;
   line-height: 1.1;
 }
 
@@ -448,11 +463,22 @@ body {
 
 @media (max-width: 700px) {
   .calendar-list-item {
-    grid-template-columns: 1fr;
+    grid-template-columns: 110px 1fr;
+  }
+
+  .calendar-list-image {
+    width: 110px;
+    height: 80px;
   }
 
   .calendar-list-date {
-    width: 90px;
+    width: 80px;
+    grid-column: 1;
+  }
+
+  .calendar-list-content {
+    grid-column: 2;
+    grid-row: 1 / span 2;
   }
 }
 
