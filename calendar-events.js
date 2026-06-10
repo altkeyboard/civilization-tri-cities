@@ -39,23 +39,27 @@ async function loadCalendarEvents() {
 
     if (listContainer && upcomingEvents.length > 0) {
       listContainer.innerHTML = upcomingEvents.map(event => `
-        <article class="calendar-list-item">
-          <div class="calendar-list-date">
-            <span>${event.month}</span>
-            <strong>${event.dayRange}</strong>
-          </div>
+<article class="calendar-list-item">
+  <a href="${event.url}" target="_blank" rel="noopener noreferrer" class="calendar-list-image-link">
+    <img src="../../${event.image}" alt="${event.title}" class="calendar-list-image">
+  </a>
 
-          <div class="calendar-list-content">
-            <p class="kicker">${event.secondaryCategory} / ${event.category}</p>
-            <h3>
-              <a href="${event.url}" target="_blank" rel="noopener noreferrer">
-                ${event.title}
-              </a>
-            </h3>
-            <p class="event-meta">${event.displayDate} · ${event.location} · ${event.city}</p>
-            <p>${event.description}</p>
-          </div>
-        </article>
+  <div class="calendar-list-date">
+    <span>${event.month}</span>
+    <strong>${event.dayRange}</strong>
+  </div>
+
+  <div class="calendar-list-content">
+    <p class="kicker">${event.secondaryCategory} / ${event.category}</p>
+    <h3>
+      <a href="${event.url}" target="_blank" rel="noopener noreferrer">
+        ${event.title}
+      </a>
+    </h3>
+    <p class="event-meta">${event.displayDate} · ${event.location} · ${event.city}</p>
+    <p>${event.description}</p>
+  </div>
+</article>
       `).join("");
     }
 
