@@ -497,6 +497,15 @@ body {
   }
 }
 
+/* CALENDAR SECTION DIVIDERS */
+
+.calendar-featured-events,
+.calendar-browse-section {
+  border-top: 1px solid #e5e5e5;
+  padding-top: 3rem;
+  margin-top: 2.5rem;
+}
+
 /* CALENDAR LIST */
 
 .calendar-list {
