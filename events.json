@@ -29,7 +29,8 @@
     "description": "A classic car weekend in Richland with a cruise, Show N Shine, Party in the Park, and other community events.",
     "image": "images/events/cool-desert-nights.png",
     "url": "https://www.richlandchamber.org/cool-desert-nights",
-    "featured": true
+    "featured": true,
+    "hero": true
   }, 
   {
     "title": "Beyond Wonderland at The Gorge",
