@@ -111,5 +111,21 @@
   "image": "images/events/iconic-country-music-festival.png",
   "url": "https://www.eventbrite.com/e/tri-cities-2nd-annual-iconic-country-music-festival-tickets-1985613580671",
   "featured": false
+  },
+  {
+  "title": "The Emo Night Tour",
+  "startDate": "2026-07-18",
+  "endDate": "2026-07-18",
+  "displayDate": "July 18, 2026",
+  "month": "JUL",
+  "dayRange": "18",
+  "category": "Music",
+  "secondaryCategory": "Nightlife",
+  "city": "Richland",
+  "location": "Ray's Golden Lion Restaurant",
+  "description": "A 21+ emo and pop-punk DJ night in Richland featuring throwback favorites from bands like Taking Back Sunday, Fall Out Boy, Panic! At The Disco and My Chemical Romance.",
+  "image": "images/events/emo-night-tour.png",
+  "url": "https://www.eventbrite.com/e/the-emo-night-tour-richland-tickets-1989726712158#location",
+  "featured": false
   }
 ]
