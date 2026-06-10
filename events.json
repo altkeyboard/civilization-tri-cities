@@ -95,5 +95,21 @@
   "image": "images/events/dave-matthews-band.png",
   "url": "https://www.georgeamphitheatre.com/events/dave-matthews-band-3-day-pass-04-september-2026/",
   "featured": false
+  },
+  {
+  "title": "Tri-Cities Iconic Country Music Festival",
+  "startDate": "2026-06-26",
+  "endDate": "2026-06-27",
+  "displayDate": "June 26–27, 2026",
+  "month": "JUN",
+  "dayRange": "26–27",
+  "category": "Music",
+  "secondaryCategory": "Festival",
+  "city": "Richland",
+  "location": "2470 Henderson Loop",
+  "description": "A two-day country music festival in Richland with a Friday kickoff party and a Saturday lineup of Washington country artists, food and festival activities.",
+  "image": "images/events/iconic-country-music-festival.png",
+  "url": "https://www.eventbrite.com/e/tri-cities-2nd-annual-iconic-country-music-festival-tickets-1985613580671",
+  "featured": false
   }
 ]
