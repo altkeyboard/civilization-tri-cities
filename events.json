@@ -48,4 +48,20 @@
     "url": "https://www.georgeamphitheatre.com/events/beyond-wonderland-2-day-pass-27-june-2026/",
     "featured": true
   }
+  {
+  "title": "Bass Canyon Festival",
+  "startDate": "2026-08-14",
+  "endDate": "2026-08-16",
+  "displayDate": "Aug. 14–16, 2026",
+  "month": "AUG",
+  "dayRange": "14–16",
+  "category": "Music",
+  "secondaryCategory": "Festival",
+  "city": "George",
+  "location": "Gorge Amphitheatre",
+  "description": "A three-day bass music festival at the Gorge Amphitheatre.",
+  "image": "images/events/bass-canyon.png",
+  "url": "https://www.georgeamphitheatre.com/events/bass-canyon-festival-3-day-pass-14-august-2026/",
+  "featured": false
+  }
 ]
