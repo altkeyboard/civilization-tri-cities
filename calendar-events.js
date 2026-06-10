@@ -61,17 +61,17 @@ if (heroContainer && heroEvent) {
 
     if (listContainer && upcomingEvents.length > 0) {
       listContainer.innerHTML = upcomingEvents.map(event => `
-        <article class="calendar-list-item">
-          <a href="${event.url}" target="_blank" rel="noopener noreferrer" class="calendar-list-image-link">
-            <img src="../../${event.image}" alt="${event.title}" class="calendar-list-image">
-          </a>
+<article class="calendar-list-item">
+  <a href="${event.url}" target="_blank" rel="noopener noreferrer" class="calendar-list-image-link">
+    <img src="../../${event.image}" alt="${event.title}" class="calendar-list-image">
 
-          <div class="calendar-list-date">
-            <span>${event.month}</span>
-            <strong>${event.dayRange}</strong>
-          </div>
+    <div class="calendar-list-date">
+      <span>${event.month}</span>
+      <strong>${event.dayRange}</strong>
+    </div>
+  </a>
 
-          <div class="calendar-list-content">
+  <div class="calendar-list-content">
             <p class="kicker">${event.secondaryCategory} / ${event.category}</p>
             <h3>
               <a href="${event.url}" target="_blank" rel="noopener noreferrer">
