@@ -79,5 +79,21 @@
   "image": "images/events/chris-stapleton.png",
   "url": "https://www.georgeamphitheatre.com/events/chris-stapletons-all-american-road-show-chris-stapleton-grace-potter-24-july-2026/",
   "featured": false
+  },
+  {
+  "title": "Dave Matthews Band at The Gorge",
+  "startDate": "2026-09-04",
+  "endDate": "2026-09-06",
+  "displayDate": "Sept. 4–6, 2026",
+  "month": "SEP",
+  "dayRange": "4–6",
+  "category": "Music",
+  "secondaryCategory": "Concert",
+  "city": "Quincy",
+  "location": "Gorge Amphitheatre",
+  "description": "A three-day Labor Day weekend concert event at the Gorge Amphitheatre featuring Dave Matthews Band.",
+  "image": "images/events/dave-matthews-band.png",
+  "url": "https://www.georgeamphitheatre.com/events/dave-matthews-band-3-day-pass-04-september-2026/",
+  "featured": false
   }
 ]
