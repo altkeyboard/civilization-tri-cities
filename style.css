@@ -388,6 +388,74 @@ body {
   color: #666666;
 }
 
+/* CALENDAR LIST */
+
+.calendar-list {
+  max-width: 900px;
+  margin: 0 auto 3rem;
+  border-top: 1px solid #e5e5e5;
+}
+
+.calendar-list-item {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  gap: 1.25rem;
+  padding: 1.25rem 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.calendar-list-date {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  border: 1px solid #111111;
+  padding: 0.6rem 0.4rem;
+  height: fit-content;
+}
+
+.calendar-list-date span {
+  display: block;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+}
+
+.calendar-list-date strong {
+  display: block;
+  font-size: 1.35rem;
+  line-height: 1.1;
+}
+
+.calendar-list-content h3 {
+  margin: 0.2rem 0 0.4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  line-height: 1.15;
+}
+
+.calendar-list-content h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.calendar-list-content h3 a:hover {
+  text-decoration: underline;
+}
+
+.calendar-list-content p {
+  margin-top: 0;
+}
+
+@media (max-width: 700px) {
+  .calendar-list-item {
+    grid-template-columns: 1fr;
+  }
+
+  .calendar-list-date {
+    width: 90px;
+  }
+}
+
 /* SECTION CARDS */
 
 .section-grid {
