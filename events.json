@@ -127,5 +127,21 @@
   "image": "images/events/emo-night-tour.png",
   "url": "https://www.eventbrite.com/e/the-emo-night-tour-richland-tickets-1989726712158#location",
   "featured": false
+  },
+  {
+  "title": "Iconic Brewing Sonic Suds Grunge Fest",
+  "startDate": "2026-07-18",
+  "endDate": "2026-07-18",
+  "displayDate": "July 18, 2026",
+  "month": "JUL",
+  "dayRange": "18",
+  "category": "Music",
+  "secondaryCategory": "Festival",
+  "city": "Richland",
+  "location": "2470 Henderson Loop",
+  "description": "A 21+ grunge music festival in Richland with live bands, craft beer, food vendors, flash tattoos, merch and raffles.",
+  "image": "images/events/sonic-suds-grunge-fest.png",
+  "url": "https://www.eventbrite.com/e/iconic-brewing-sonic-suds-grunge-fest-tickets-1989159408337",
+  "featured": false
   }
 ]
