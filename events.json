@@ -143,5 +143,21 @@
   "image": "images/events/sonic-suds-grunge-fest.png",
   "url": "https://www.eventbrite.com/e/iconic-brewing-sonic-suds-grunge-fest-tickets-1989159408337",
   "featured": false
+  },
+  {
+  "title": "Water Circus: Cirque Italia Aquatic Spectacular",
+  "startDate": "2026-06-19",
+  "endDate": "2026-06-22",
+  "displayDate": "June 19–22, 2026",
+  "month": "JUN",
+  "dayRange": "19–22",
+  "category": "Performance",
+  "secondaryCategory": "Family",
+  "city": "Kennewick",
+  "location": "Columbia Center",
+  "description": "A traveling Cirque Italia performance in Kennewick featuring aerial acts, contortionists and a custom water stage under the big top.",
+  "image": "images/events/water-circus.png",
+  "url": "https://www.eventbrite.com/e/water-circus-metropolis-kennewick-wa-june-19-22-2026-tickets-1990487443526",
+  "featured": false
   }
 ]
