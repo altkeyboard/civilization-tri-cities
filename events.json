@@ -159,5 +159,21 @@
   "image": "images/events/water-circus.png",
   "url": "https://www.eventbrite.com/e/water-circus-metropolis-kennewick-wa-june-19-22-2026-tickets-1990487443526",
   "featured": false
+  },
+  {
+  "title": "Santa Poco at Iconic Brewing",
+  "startDate": "2026-08-01",
+  "endDate": "2026-08-01",
+  "displayDate": "Aug. 1, 2026",
+  "month": "AUG",
+  "dayRange": "1",
+  "category": "Music",
+  "secondaryCategory": "Concert",
+  "city": "Richland",
+  "location": "Iconic Brewing",
+  "description": "A country-rock show at Iconic Brewing featuring Santa Poco.",
+  "image": "images/events/santa-poco.png",
+  "url": "https://www.bandsintown.com/e/108352939?affil_code=js_santapocoband.com&app_id=js_santapocoband.com&came_from=242",
+  "featured": false
   }
 ]
